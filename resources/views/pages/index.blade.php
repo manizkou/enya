@@ -5,7 +5,7 @@
 			<div class="col-xs-12" id="namos">
 				<!-- <h1>Welcome to Laravel</h1>
 				<p>This is Laravel Application "Larvel From Scratch" Youtube Series</p> -->
-				<h1>Welcome 
+				<h1><span>{{$greet}}</span> 
 					<span v-if="cName==''">@{{sName}}</span>
 					<span v-if="cName!=''">@{{cName}}</span>
 				</h1>
